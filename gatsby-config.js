@@ -121,7 +121,7 @@ module.exports = {
       options: { trackingId: 'UA-73379983-2' }
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-geekzu-fonts`,
       options: {
         fonts: [`roboto\:400,400i,500,700`]
       }
