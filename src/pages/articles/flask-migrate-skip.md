@@ -15,7 +15,7 @@ description: "在合并表的时候有一些表并不想托管，我们需要把
 增加一个context的二次处理方法达到过滤目的。
 Flask-Migrate==2.1.1测试通过
 
-```
+```python
 from flask_script import Manager
 from flask.ext.migrate import Migrate, MigrateCommand
 from models import db
