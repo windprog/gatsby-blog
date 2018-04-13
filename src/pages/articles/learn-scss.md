@@ -1,11 +1,12 @@
 ---
-title: sass 入门
+title: scss 入门
 date: "2018-04-06 17:38:00"
 layout: post
 draft: false
-path: "/posts/learn-sass"
+path: "/posts/learn-scss"
 category: "CSS"
 tags:
+  - "Scss"
   - "Sass"
   - "Quick Learn"
 description: "如果你需要编写大量的 CSS ，预处理器可以大大降低你的重复工作，并节省大量宝贵的时间。使用诸如 Sass，Less，Stylus 或 PostCSS 之类的工具，使得大而复杂的样式表更加清晰易懂，易于维护。因为具有变量，函数和混合等功能，代码变得更加有条理，使开发人员能够更快地开发，并减少错误。"
