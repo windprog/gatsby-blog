@@ -167,9 +167,17 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify',
       options: {
         headers: {
-          'Access-Control-Allow-Origin': 'gapis.geekzu.org'
-        }
-      }
+          '/*': [
+            'Access-Control-Allow-Origin: gapis.geekzu.org',
+          ]
+        },
+        allPageHeaders: [],
+        mergeSecurityHeaders: true,
+        mergeLinkHeaders: true,
+        mergeCachingHeaders: true,
+        transformHeaders: (headers, path) => headers,
+        generateMatchPathRewrites: true
+      },
     }
   ]
 };
