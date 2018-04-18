@@ -162,6 +162,14 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-postcss-sass'
+    'gatsby-plugin-postcss-sass',
+    {
+      resolve: 'gatsby-plugin-netlify',
+      options: {
+        headers: {
+          'Access-Control-Allow-Origin': 'gapis.geekzu.org'
+        }
+      }
+    }
   ]
 };

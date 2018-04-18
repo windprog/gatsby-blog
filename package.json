@@ -41,6 +41,7 @@
     "gatsby-source-filesystem": "^1.5.11",
     "gatsby-transformer-remark": "^1.7.28",
     "gatsby-transformer-sharp": "^1.6.16",
+    "gatsby-plugin-netlify": "^1.1.0-alpha.1460dad9",
     "lodash": "^4.17.4",
     "bluebird": "^3.5.1",
     "react": "^15.6.1",
