@@ -19,4 +19,4 @@ description: ""
 使元素显示为内联元素，内联元素只需要必要的宽度，不强制换行。
 ### none 
 
-<script src='http://runjs.cn/gist/4o0pcco7/all'></script>
+<script async src="//jsfiddle.net/windprog/apyLj23g/3/embed/html,js,css,result/"></script>
