@@ -19,13 +19,7 @@ description: ""
 使元素显示为内联元素，内联元素只需要必要的宽度，不强制换行。
 ### none 
 
-<div><script async src="//jsfiddle.net/windprog/apyLj23g/3/embed/html,js,css,result/"></script></div>
-
 <iframe width="100%" height="300" src="http://jsfiddle.net/windprog/apyLj23g/3/embedded/html,js,css,result" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
-
-<script type="text/javascript" src="http://runjs.cn/gist/4o0pcco7"></script>
-
-<script async src="//jsrun.net/rUZKp/embed/html,css,result/light/"></script>
 
 <iframe width="100%" height="300" src="//jsrun.net/rUZKp/embedded/html,css,result/light/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
