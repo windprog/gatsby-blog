@@ -20,3 +20,7 @@ description: ""
 ### none 
 
 <script async src="//jsfiddle.net/windprog/apyLj23g/3/embed/html,js,css,result/"></script>
+
+<script type="text/javascript" src="http://runjs.cn/gist/4o0pcco7"></script>
+
+<a class="jsbin-embed" href="https://jsbin.com/gulelu/embed?html,css,js,output">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.1.4"></script>
