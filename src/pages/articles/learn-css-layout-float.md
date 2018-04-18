@@ -4,7 +4,7 @@ date: "2018-04-16 15:48:00"
 layout: post
 draft: false
 path: "/posts/learn-css-layout-float"
-category: "learn-css-layout-float"
+category: "CSS"
 tags:
   - "CSS"
 description: ""
