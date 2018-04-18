@@ -10,9 +10,12 @@ tags:
 description: ""
 ---
 
+[TOC]
+
 # CSS相关属性
 
 ## Display属性
+
 * block：使元素显示为块元素，即占用了全部宽度，在前后都是换行符。
 
 * inline：使元素显示为内联元素，内联元素只需要必要的宽度，不强制换行。
@@ -32,20 +35,6 @@ span是内联元素，效果如下：
     注意: 设置元素的display属性只是改变元素的显示方式，但不会改变它自身的元素属性。
     如：内联元素只能包含数据和其他内联元素，而块级元素可以包含内联元素和其他块级元素。
     一个display:block的内联元素并不能包含块级元素。
-
-## visibility属性
-
-* hidden：元素不可见。
-
-    与display:none不同，hidden仍占用空间，只是不可见，而display:none不占用空间。
-
-* visible：元素可见
-
-隐藏的元素（占用空间）：
-<script async src="//jsrun.net/AUZKp/embed/result,html,css/light/"></script>
-
-显示的元素：
-<script async src="//jsrun.net/jUZKp/embed/result,html,css/light/"></script>
 
 ## position属性
 
