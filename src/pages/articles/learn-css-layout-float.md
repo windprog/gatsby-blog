@@ -25,6 +25,6 @@ description: ""
 
 <script type="text/javascript" src="http://runjs.cn/gist/4o0pcco7"></script>
 
-<a class="jsbin-embed" href="https://jsbin.com/gulelu/embed?html,css,js,output">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.1.4"></script>
+<script async src="//jsrun.net/rUZKp/embed/html,css,result/light/"></script>
 
 ### test2
