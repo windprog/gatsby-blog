@@ -99,9 +99,45 @@ span是内联元素，效果如下：
     
     接下来由于浮动元素的高度不同，那么当它们向下移动时可能被其它浮动元素"卡住"：
 
+但是你可能会注意到，最外层的框并没有把他们都包裹起来。如何解决呢？
+
+## clear 属性
+
+    由于浮动元素脱离了文档流，所以其里面的三个元素是不占据空间的。
+    让包围元素在视觉上包围浮动元素呢？需要在这个元素中的某个地方应用 clear：
+
+<script async src="//jsrun.net/89ZKp/embed/result,html,css/light/"></script>
+
+    这样可以实现我们希望的效果，但是需要添加多余的代码。
+    常常有元素可以应用 clear，但是有时候不得不为了进行布局而添加无意义的标记。
+
+## overflow属性
+
+overflow 属性规定当内容溢出元素框时发生的事情。
+
+* visible：默认值。内容不会被修剪，会呈现在元素框之外。
+* scroll：内容会被修剪，但是浏览器会显示滚动条以便查看其余的内容。且水平和竖直滚动条都会有。
+* auto：如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。即其和scroll不同的是只有在内容需要修剪时，滚动条才会出现。
+* hidden：内容会被修剪，且其余内容是不可见的。
+
+## z-index属性
+
+z-index 属性设置元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面。 
+z-index 仅能在定位元素上奏效(position:absolute,position:relative,position:fixed) 
+
+例子：
+正常情况下，由于红色块是后放置在html中的,所以红色会覆盖在蓝色上面。
+
+<script async src="//jsrun.net/GeZKp/embed/result,css,html/light/"></script>
+
+但如果我们给.red加上z-index:-1，显示效果如下：
+
+<script async src="//jsrun.net/HeZKp/embed/result,css,html/light/"></script>
 
 
 # 资料
+
+## 内敛元素与块级元素列表
 
 内联元素： 
 ```
