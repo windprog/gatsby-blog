@@ -4,9 +4,10 @@ date: "2018-04-22 17:15:00"
 layout: post
 draft: false
 path: "/posts/javascript-prototype"
-category: "javascript-prototype"
+category: "JavaScript"
 tags:
   - "JavaScript"
+  - "Prototype"
 description: "每个JS对象一定对应一个原型对象，并从原型对象继承属性和方法。"
 ---
 
