@@ -24,7 +24,7 @@ description: ""
 
 span是内联元素，效果如下：
 
-<script src="//jsrun.net/rUZKp/embed/result,html/light/"></script>
+<iframe width="100%" height="300" src="//jsrun.net/rUZKp/embed/result,html/light/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 加上：display:block
 
