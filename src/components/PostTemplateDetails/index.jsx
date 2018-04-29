@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import moment from 'moment';
 import Disqus from '../Disqus/Disqus';
+import renderAst from '../CustomComponents';
 import './style.scss';
 
 class PostTemplateDetails extends React.Component {
@@ -42,7 +43,11 @@ class PostTemplateDetails extends React.Component {
         <div className="post-single">
           <div className="post-single__inner">
             <h1 className="post-single__title">{post.frontmatter.title}</h1>
-            <div className="post-single__body" dangerouslySetInnerHTML={{ __html: post.html }} />
+            <div className="post-single__body">
+              {
+                renderAst(post.htmlAst)
+              }
+            </div>
             <div className="post-single__date">
               <em>Published {moment(post.frontmatter.date).format('D MMM YYYY')}</em>
             </div>
