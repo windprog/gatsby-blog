@@ -24,7 +24,7 @@ description: ""
 
 span是内联元素，效果如下：
 
-<script async src="//jsrun.net/rUZKp/embed/result,html/light/"></script>
+<script src="//jsrun.net/rUZKp/embed/result,html/light/"></script>
 
 加上：display:block
 
