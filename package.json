@@ -9,6 +9,7 @@
     "clean:public": "rm -rf public",
     "clean": "npm run clean:public",
     "lint": "./node_modules/.bin/eslint --cache --ext .js,.jsx --ignore-pattern public .",
+    "fix": "./node_modules/.bin/eslint --fix ./src/**/*.jsx",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },

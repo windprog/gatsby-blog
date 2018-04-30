@@ -23,9 +23,9 @@ description: ""
 * visible：元素可见
 
 隐藏的元素（占用空间）：
-<script async src="//jsrun.net/AUZKp/embed/result,html,css/light/"></script>
+<jsrun id="AUZKp" type="result,html,css"></jsrun>
 
 显示的元素：
-<script async src="//jsrun.net/jUZKp/embed/result,html,css/light/"></script>
+<jsrun id="jUZKp" type="result,html,css"></jsrun>
 
 <interactive-counter></interactive-counter>

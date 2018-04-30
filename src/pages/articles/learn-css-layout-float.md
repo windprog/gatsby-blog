@@ -24,11 +24,12 @@ description: ""
 
 span是内联元素，效果如下：
 
-<script async src="//jsrun.net/rUZKp/embed/result,html/light/"></script>
+<jsrun id="rUZKp" type="result,html"></jsrun>
+
 
 加上：display:block
 
-<script async src="//jsrun.net/mUZKp/embed/result,html,css/light/"></script>
+<jsrun id="mUZKp" type="result,html,css"></jsrun>
 
     注意: 设置元素的display属性只是改变元素的显示方式，但不会改变它自身的元素属性。
     如：内联元素只能包含数据和其他内联元素，而块级元素可以包含内联元素和其他块级元素。
@@ -56,11 +57,11 @@ span是内联元素，效果如下：
 
 例子：
 
-<script async src="//jsrun.net/RUZKp/embed/result,html,css/light/"></script>
+<jsrun id="RUZKp" type="result,html,css" height="250px"></jsrun>
 
     当设置了top属性之后
 
-<script async src="//jsrun.net/MUZKp/embed/result,html,css/light/"></script>
+<jsrun id="MUZKp" type="result,html,css" height="250px"></jsrun>
 
     结果叠在第三行中，但是第二行的空间并没有消失。
 
@@ -78,21 +79,21 @@ span是内联元素，效果如下：
     由于浮动框不在文档的普通流中，所以文档的普通流中的块框表现得就像浮动框不存在一样。
 
 ### 例子：向右浮动
-<script async src="//jsrun.net/k9ZKp/embed/result,html,css/light/"></script>
+<jsrun id="k9ZKp" type="result,html,css" height="200px"></jsrun>
 
 ### 例子：向左浮动
-<script async src="//jsrun.net/Y9ZKp/embed/result,html,css/light/"></script>
+<jsrun id="Y9ZKp" type="result,html,css" height="200px"></jsrun>
 
     当框 1 向左浮动时，它脱离文档流并且向左移动，直到它的左边缘碰到包含框的左边缘。
     因为它不再处于文档流中，所以它不占据空间，实际上覆盖住了框 2，使框 2 从视图中消失。
 
 ### 例子：多个框向左浮动
-<script async src="//jsrun.net/i9ZKp/embed/result,html,css/light/"></script>
+<jsrun id="i9ZKp" type="result,html,css"></jsrun>
 
     把所有三个框都向左移动，那么框 1 向左浮动直到碰到包含框，另外两个框向左浮动直到碰到前一个浮动框。
 
 ### 例子：多个框向左浮动，高度不一
-<script async src="//jsrun.net/q9ZKp/embed/result,html,css/light/"></script>
+<jsrun id="q9ZKp" type="result,html,css"></jsrun>
 
     例子中由于: (100 + 5+5) * 3 == 330 > 300(.father)
     包含框太窄，无法容纳水平排列的三个浮动元素，那么其它浮动块向下移动，直到有足够的空间。
@@ -106,7 +107,7 @@ span是内联元素，效果如下：
     由于浮动元素脱离了文档流，所以其里面的三个元素是不占据空间的。
     让包围元素在视觉上包围浮动元素呢？需要在这个元素中的某个地方应用 clear：
 
-<script async src="//jsrun.net/89ZKp/embed/result,html,css/light/"></script>
+<jsrun id="89ZKp" type="result,html,css"></jsrun>
 
     这样可以实现我们希望的效果，但是需要添加多余的代码。
     常常有元素可以应用 clear，但是有时候不得不为了进行布局而添加无意义的标记。
@@ -128,11 +129,11 @@ z-index 仅能在定位元素上奏效(position:absolute,position:relative,posit
 例子：
 正常情况下，由于红色块是后放置在html中的,所以红色会覆盖在蓝色上面。
 
-<script async src="//jsrun.net/GeZKp/embed/result,css,html/light/"></script>
+<jsrun id="GeZKp" type="result,css,html" height="270px"></jsrun>
 
 但如果我们给.red加上z-index:-1，显示效果如下：
 
-<script async src="//jsrun.net/HeZKp/embed/result,css,html/light/"></script>
+<jsrun id="HeZKp" type="result,css,html" height="270px"></jsrun>
 
 
 # 资料
