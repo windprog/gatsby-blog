@@ -23,9 +23,9 @@ description: ""
 * visible：元素可见
 
 隐藏的元素（占用空间）：
-<jsrun id="AUZKp" type="result,html,css"></jsrun>
+<jsrun id="AUZKp" type="result,html,css" height="250px"></jsrun>
 
 显示的元素：
-<jsrun id="jUZKp" type="result,html,css"></jsrun>
+<jsrun id="jUZKp" type="result,html,css" height="250px"></jsrun>
 
 <interactive-counter></interactive-counter>
