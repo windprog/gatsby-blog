@@ -23,6 +23,9 @@ I work with these technologies:
 * React, React Router & Redux
 * Vue, VueRouter, Vuex, Axios, ElementUI, Font-Awesome, ESLint
 * Webpack
-* React Router & Redux
-* SASS, LESS
+
+### TODO Learn
+
 * Babel & ES6
+* React Router & Redux
+* PostCSS, SASS, LESS

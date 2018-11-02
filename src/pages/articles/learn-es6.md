@@ -116,6 +116,8 @@ foo({x: 1}) // 1 5
 
 ## rest 参数
 
+ES6 引入 rest 参数（形式为`...变量名`），用于获取函数的多余参数，这样就不需要使用`arguments`对象了。rest 参数搭配的变量是一个数组，该变量将多余的参数放入数组中。
+
 ```ecmascript 6
 function add(...values) {
   let sum = 0;
@@ -131,6 +133,8 @@ add(2, 5, 3) // 10
 ```
 
 ## 箭头函数
+
+ES6 允许使用“箭头”（`=>`）定义函数。
 
 ```ecmascript 6
 var sum = (num1, num2) => { return num1 + num2; }
@@ -148,4 +152,43 @@ var sum = function(sum1, sum2) {
 * 不可以使用arguments对象，该对象在函数体内不存在。如果要用，可以用 rest 参数代替。
 * 不可以使用yield命令，因此箭头函数不能用作 Generator 函数。
 
-doing
+# 对象
+
+ES6 允许直接写入变量和函数，作为对象的属性和方法。这样的书写更加简洁。
+
+```ecmascript 6
+const foo = 'bar';
+const baz = {foo};
+baz // {foo: "bar"}
+// 等同于
+const baz = {foo: foo};
+
+// 方法的简写
+const o = {
+  method() {
+    return "Hello!";
+  }
+};
+// 等同于
+const o = {
+  method: function() {
+    return "Hello!";
+  }
+};
+```
+
+## Object.assign
+
+Object.assign方法用于对象的合并，将源对象（source）的所有可枚举属性，复制到目标对象（target）。
+
+```ecmascript 6
+const target = { a: 1 };
+
+const source1 = { b: 2 };
+const source2 = { c: 3 };
+
+Object.assign(target, source1, source2);
+target // {a:1, b:2, c:3}
+```
+
+DOING:http://es6.ruanyifeng.com/?search=rest+%E5%8F%82%E6%95%B0&x=14&y=8#docs/reflect
